@@ -38,10 +38,7 @@ const Header = () => {
             <li>
               <AccountBox />
             </li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+           
           </ul>
         </div>
       </div>
