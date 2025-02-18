@@ -3,6 +3,9 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:"/Netflix-Clone/",
+  base: "/Netflix-Clone/",
   plugins: [react()],
-})
+  build: {
+    outDir: "dist", 
+  },
+});
