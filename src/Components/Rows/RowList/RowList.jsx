@@ -10,8 +10,8 @@ const RowList = () => {
         fetchUrl={requests.fetchNetflixOriginals}
         isLargeRow={true}
       />
-      <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
       <Row title="Top Rated Movies" fetchUrl={requests.fetchTopRatedMovies} />
+      <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
       <Row title="Action Movies" fetchUrl={requests.fetchActionMovies} />
       <Row title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} />
       <Row title="TV Shows" fetchUrl={requests.fetchTvShow} />
