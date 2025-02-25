@@ -3,7 +3,6 @@ import styles from "./Row.module.css";
 import axios from "../../../utils/axios";
 import movieTrailer from "movie-trailer";
 import YouTube from "react-youtube";
-import { height, width } from "@mui/system";
 const Row = ({ title, fetchUrl, isLargeRow }) => {
   const [movies, setMovies] = useState([]);
   const [trailerUrl, setTrialerUrl] = useState("");
